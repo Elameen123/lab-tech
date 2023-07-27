@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    
+ 
+    <head>
+        <link rel="stylesheet" href="style.css">
+    
+<style>
+    table, th, td{
+        border:1px black;
+        border-collapse: collapse;
+    }
+
+    th,td {
+        padding: 5px;
+        
+    }
+    body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#slider{
+    
+    margin:auto;
+    width:800px;
+    height:450px;
+    margin-top:100px;
+}
+
+#slider a{
+    position: absolute;
+}
+
+#slider a img{
+    padding:10px;
+    
+    border:1px black; 
+    background: black;
+    width: 800px;
+    height:450px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#slider a {
+    margin: 10px; /* Optional - add spacing between the images */
+}
+
+#slider img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+
+
+#slider a:nth-of-type(1){
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    z-index:20;
+}
+
+#slider a:nth-of-type(2){
+    z-index:10;
+}
+
+#slider a:nth-of-type(n+3){
+    display:none;
+}
+
+@keyframes fader{
+    from{opacity:1.0;}
+    to{opacity:0.0};
+}
+
+</style>
+
+<script type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+    var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+    var stage = document.getElementById("slider");
+    var arr = stage.getElementsByTagName("a");
+    for(var i=0; i < arr.length; i++) {
+      arr[i].addEventListener("animationend", fadeComplete, false);
+     
+    }
+
+  }, false);
+    
+</script>
+
+<table style="width:100%">
+<tr  style="height:20;" style="text-align: left ;">
+<th><img src="C:\Users\hp\Desktop\Website\LAB TECH.jpg" alt="LAB TECH logo" width="40%"></th>
+<th style="width:50%"></th>
+<th><button><a href="https://sst.pau.edu.ng">Home</a></button></th>
+<th><button><a href="https://sst.pau.edu.ng">About</a></button></th>
+<th><button><a href="https://sst.pau.edu.ng">Services</a></button></th>
+<th><button><a href="https://sst.pau.edu.ng">Contact</a></button></th>
+</tr>
+</table>
+
+<meta charset="UTF-8">
+
+
+    </head>
+<body>
+
+<div class="container">
+    <h1> OUR VISION</h1>
+</div>
+
+<table style="width:100%">
+    <tr>
+        <td rowspan="1" style="height: 100px;"></td>
+    </tr>
+</table>
+
+<p style="text-align: center;font-weight: 300; font-family: Verdana;">Welcome to our company, where we are dedicated to revolutionizing the way students and educators experience laboratory experiments. As a team of passionate innovators, we firmly believe that education should be accessible to all, and that includes the invaluable hands-on learning experiences that traditional laboratory settings provide. With this vision in mind, we have embarked on a mission to bring lab experiments to the virtual world.</p>
+
+<table style="width:100%"></table>
+<tr>
+    <td style="height: 50%;"></td>
+</tr>
+
+</table>
+
+<div class="container3">
+    <h1> OUR INNOVATIVE PRODUCT</h1>
+</div>
+
+
+
+<div  id="slider">
+<a href="https://i.ibb.co/P4Qzbtm/circuitry.jpg"><img src="https://i.ibb.co/P4Qzbtm/circuitry.jpg"></a>
+<a href="https://i.ibb.co/dt2z6Lq/file1.jpg"><img src="https://i.ibb.co/dt2z6Lq/file1.jpg"></a>
+<a href="https://i.ibb.co/b3PrH8h/file-2.jpg"><img src="https://i.ibb.co/b3PrH8h/file-2.jpg"></a>
+</div>
+
+       
+    
+
+
+
+<table style="width:100%">
+    <tr>
+    <td rowspan="1" style="height: 100px;"></td>
+</tr>
+</table>
+<div class="container2">
+    <h1> OUR TEAM</h1>
+</div>
+
+
+<table style="width:100%"></table>
+<tr>
+    <td style="height: 200px;"></td>
+</tr>
+<tr>
+    <tr>
+        <td style="height: 200px;"></td>
+    </tr>
+</tr>
+</table>
+
+<table style="width:100%" style="text-align: center;">
+    <tr>
+        <td colspan="4" style="height: 200px;"></td>
+    </tr>
+<tr style="width: 34%;">
+    <td><img src="https://i.ibb.co/7GvNYvt/timi.jpg" width="240" height="240" style="float: left; margine-right:10px; margin-bottom: 5px; border:solid black 1px; padding:2px"/> </td>
+    <td><img src="https://i.ibb.co/1K3P7sm/ifeacho.jpg" width="240" height="240" style="float: left; margine-right:10px; margin-bottom: 5px; border:solid black 1px; padding:2px"/></td>
+    <td><img src="https://i.ibb.co/Y2jn9G9/Jachike.jpg" width="240" height="240" style="float: left; margine-right:10px; margin-bottom: 5px; border:solid black 1px; padding:2px"/></td>
+</tr>
+<tr style="width: 34%;">
+    <th>Design and Project manager</th>
+    <th>Marketing manager</th>
+    <th> Financial manager</th>
+</tr>
+<tr style="width: 34%;"> 
+    <td> Pearse Oluwatimilehin</td>
+    <td>Ifeacho David</td>
+    <td> Anayo Jachike</td>
+</tr>
+<tr>
+    <td colspan="4" style="height: 200px;"></td>
+</tr>
+<tr>
+    <td colspan="4" style="text-align: center;" > © LAB TECH incorporated</td>
+</tr>
+</table>
+
+</body>
+</html>
